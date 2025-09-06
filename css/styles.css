@@ -176,6 +176,13 @@ color: #434455;
 .prioritets-item{
   width: calc((100% - 72px) / 4);
 }
+.icon{
+  border: 1px solid #8e8f99;
+border-radius: 4px;
+width: 264px;
+height: 112px;
+background: #f4f4fd;
+}
 .prioritets-subtitle-hero { 
   margin-bottom: 8px; 
   font-size: 20px;
@@ -234,6 +241,17 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: center;
 color: #434455;
+}
+.team-icon{
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  width: 40px;
+height: 40px;
+  gap: 24px; 
+  fill: #f4f4fd;
+  border-radius: 50%;
+background-color: #404bbf;
 }
 .container-portfolio{
 display: flex;
@@ -297,4 +315,16 @@ width: 264px;
   color:#F4F4FD;
   letter-spacing: 0.02em;
 }
-  
+  .footer-icon{
+    width: 40px;
+height: 40px;
+  }
+  .logo-icon{
+    font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.02em;
+color: #fff;
+background: #2e2f42;
+  }
