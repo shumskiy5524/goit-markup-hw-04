@@ -202,11 +202,12 @@ color: #434455;
 .prioritets-card{
   display: flex;
   align-items: center;
+  justify-content: center; 
   height: 112px; 
   background-color: #f4f4fd;
   border-radius: 4px;
   border: 1px solid #8e8f99;
-  
+  margin-bottom: 8px;
 }
 .prioritets-icon{
   border: 1px solid #8e8f99;
@@ -273,6 +274,7 @@ background: #f4f4fd;
 }
 .team-card{
   padding: 32px 0 ;
+
 }
 .team-list-icon{
   display: flex;
@@ -412,7 +414,7 @@ height: 24px;
 fill: #404BBF;
   }
   .footer-media{
-    font-weight: 500;
+    font-weight: 500px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
