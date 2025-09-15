@@ -167,7 +167,6 @@ background: #4d5ae5;
   }
 .order-button:focus {
 background-color: #404BBF;
-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .visually-hidden {
  position: absolute;
@@ -203,12 +202,11 @@ color: #434455;
 .prioritets-card{
   display: flex;
   align-items: center;
-  justify-content: center;
   height: 112px; 
   background-color: #f4f4fd;
   border-radius: 4px;
   border: 1px solid #8e8f99;
-  margin-bottom: 8px; 
+  
 }
 .prioritets-icon{
   border: 1px solid #8e8f99;
@@ -235,9 +233,7 @@ background: #f4f4fd;
   padding: 120px 0;
   text-align: center;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-
 }
-
 .team-title {
   margin-bottom: 72px;
   font-size: 36px;
@@ -259,8 +255,29 @@ background: #f4f4fd;
   background: #fff;
    border-radius: 0 0 4px 4px;
 }
+.team-social-link{
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.team-social-link:hover,
+.team-social-link:focus{
+  background-color: #404bbf;
+}
+.team-icon{
+   fill: #f4f4fd;
+}
 .team-card{
   padding: 32px 0 ;
+}
+.team-list-icon{
+  display: flex;
+  justify-content: center;
+  gap: 24px;
 }
 .team-name{ 
   margin-bottom: 8px;
@@ -288,11 +305,6 @@ height: 40px;
   fill: #f4f4fd;
   border-radius: 50%;
 background-color: #404bbf;
-}
-.team-social{
-  display: flex;
-  justify-content: center;
-  gap: 24px;
 }
 .container-portfolio{
 display: flex;
@@ -334,12 +346,11 @@ display: flex;
   font-size: 16px;
   line-height: 1.5;
   color: #434455;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.portfolio-item{
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-item:hover{
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
 .portfolio-item:hover .portfolio-design-text{
   transform: translateY(0);
 }
@@ -358,7 +369,7 @@ line-height: 150%;
 letter-spacing: 0.02em;
   color:#f4f4fd;
   background-color: #4d5ae5;
-  padding: 40px 32px;
+  padding: 32px;
   height: 100%;
   transform: translateY(100%);
   transition: transform 0.3s ease-in-out;
@@ -407,7 +418,9 @@ fill: #404BBF;
     letter-spacing: 0.02em;
     margin-bottom: 16px;
     color: #FFFFFF;
-
+  }
+  .footer-icon{
+    margin-right: 120px;
   }
   .footer-list{
     display: flex;
