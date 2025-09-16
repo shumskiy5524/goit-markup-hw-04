@@ -269,6 +269,7 @@ background: #f4f4fd;
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 }
 .team-social-link:hover,
 .team-social-link:focus{
@@ -311,6 +312,7 @@ color: #434455;
 .team-item-social{
   width: 40px;
   height: 40px;
+
 }
 .container-portfolio{
 display: flex;
